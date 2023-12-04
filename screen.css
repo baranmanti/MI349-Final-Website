@@ -1,1 +1,112 @@
-/* Add screen styles below */
+html{
+    background-color:#a0a0a0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('images/me-back-ground.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    color: white;
+    padding: 50px;
+    position: fixed;
+    top: 25%; 
+    transform: translateY(-50%);
+    right: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: block; 
+    margin-bottom: 30px; 
+    transition: transform .2s;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+nav li:hover {
+    transform: scale(1.25);
+}
+
+h1{
+    text-align: left;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+    margin: 5%;
+    position: fixed;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.Manti-text{
+    position: relative;
+    top: 60px;
+}
+
+.tag{
+    margin: 13%;
+    position: fixed;
+    font-size: 24px;
+}
+
+.discover{
+    position: fixed;
+    font-size: 24px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 6%;
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 2%;
+    left: 48%;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform .2s;
+}
+
+.arrow:hover{
+    transform: scale(1.25);
+}
+
+.arrow div{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    transform: rotate(225deg);
+    left: 27%;
+    bottom: 35%;
+}
