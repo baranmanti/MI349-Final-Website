@@ -1,40 +1,97 @@
-html{
-    background-color:#a0a0a0;
-}
-
-body{
+body,
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    min-height: 100vh;
+#home {
+    height: 90vh;
     width: 100%;
     background-image: url('images/me-back-ground.png');
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
     background-attachment: fixed;
     color: white;
+    display: block;  
+    text-align: center;
 }
 
-nav {
-    text-align: right;
-    color: white;
-    padding: 50px;
-    position: fixed;
-    top: 25%; 
-    transform: translateY(-50%);
-    right: 0;
+#home .name{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 5%; 
+}
+
+#home .name h1{
+    font-size: 4em;
+}
+
+#home .name .tag{
+    padding-top: 5%;
+    padding-left: 6%;
+    font-size: large;
+}
+
+.Manti-text{
+    position: relative;
+    top: 50px;
+}
+
+#home .discover{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%; 
+    font-size: large;
+}
+
+#home .discover .discover-more{
+    transform: translateX(-50%);
+}
+
+#home .discover .arrow{
+    right: 75%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.2s;
+}
+
+#home .discover .arrow:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+#home .discover .arrow div{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    transform: rotate(225deg);
+    left: 27%;
+    bottom: 35%;
 }
 
 nav ul {
     list-style: none;
+    padding: 0px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 5%; 
+    transform: translateY(-50%);
+    text-align: center;
 }
 
 nav li {
@@ -53,60 +110,19 @@ nav li:hover {
     transform: scale(1.25);
 }
 
-h1{
-    text-align: left;
-    color: white;
-    font-size: 60px;
-    padding: 20px;
-    margin: 5%;
-    position: fixed;
-    transform: translateY(-50%);
-    left: 0;
-}
-
-.Manti-text{
-    position: relative;
-    top: 60px;
-}
-
-.tag{
-    margin: 13%;
-    position: fixed;
-    font-size: 24px;
-}
-
-.discover{
-    position: fixed;
-    font-size: 24px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+section{
+    padding: 50px 20px;
     text-align: center;
-    padding: 6%;
 }
 
-.arrow{
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 2%;
-    left: 48%;
-    border-radius: 50%;
-    border: 2px solid white;
-    transition: transform .2s;
-}
-
-.arrow:hover{
-    transform: scale(1.25);
-}
-
-.arrow div{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
-    transform: rotate(225deg);
-    left: 27%;
-    bottom: 35%;
+#body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/me-back-ground-blurred.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: block;  
+    text-align: center;
 }
