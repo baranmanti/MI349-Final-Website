@@ -259,11 +259,6 @@ section{
     font-style: italic;
 }
 
-.point p{
-    line-height: 27px;
-    color: #f3f3f3;
-}
-
 .point:nth-child(odd){
     border-left: 3px solid #009473;
     padding-left: 3em;
@@ -384,8 +379,8 @@ section{
 }
 
 .desc p{
-    width: 50%;
-    padding: 2.5em;
+    width: 60%;
+    padding: 1em;
     font-size: 1.2em;
     color: #f3f3f3;
 }
