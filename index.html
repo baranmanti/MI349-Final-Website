@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Baran Manti</title>
     <link rel="stylesheet" href="screen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <main>
@@ -16,35 +17,137 @@
         </div>
         <nav>
           <ul>
-              <li><a href="about.html">About Me</a></li>
-              <li><a href="education.html">Education</a></li>
-              <li><a href="experience.html">Experience</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Experience</a></li>
               <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <div class="discover">
-          <p class="discover-more">Discover More</p>
-          <div class="arrow"><div></div></div>
+          <div class="arrow" id="discoverArrow"><div></div></div>
         </div>
       </section>
-      <section id="body">
-        <section id="about">
-          <h2>About Us</h2>
-          <p>This is the about section.</p>
+      <div id="body">
+        <div class="spacer layer1"></div>
+        <section id="about" class="body-section">
+          <div class="about-me">
+            <h2>Hey there! I'm <span class="my-name">Baran Manti</span></h2>
+            <div class="desc">
+              <p>An aspiring, 22 years old Computer Science <span class="enthusiast">enthusiast</span> currently pursuing a Bachelor of Science at Michigan State University. I'm half Turkish and half Montenegrin. I love traveling and discovering new places. Driven by curiosity and a <span class="passion">passion</span> for programming, I've had experience with various realms of technology, including hands-on experience in software and systems engineering, web development, and more!</p>
+              <p>On the <span class="profes">professional</span> side, I've been working as a Systems Engineer at i3 Verticals for over a year and a half. I have experience in Azure web applications, .NET, SQL, OnBase and many other industry-leading technologies.</p>
+            </div>
+          </div>
         </section>
-        <section id="education">
-          <h2>Education</h2>
-          <p>This is the education section.</p>
+        <div class="spacer layer2"></div>
+        <section id="education" class="body-section">
+          <div class="school_info">
+            <img src="images/msu.png" alt="MSU Logo">
+            <h2 id="chool">Michigan State University, College of Engineering</h2>
+            <h3 id="major">Bachelor of Science in Computer Science</h3>
+          </div>
+          <div id="education-bottom">
+            <div class="honors">
+              <h3>Honors</h3>
+              <ul>
+                <li>GPA: 3.93</li>
+                <li>Dean's List x7</li>
+                <li>Tau Beta Pi - National Engineering Honor Society</li>
+              </ul>
+            </div>
+            <div class="classes">
+              <h3>Favorite Classes</h3>
+              <ul>
+                <li>Object Oriented Software Design</li>
+                <li>Computer Architecture</li>
+                <li>Autonomous Vehicles</li>
+                <li>Mobile App Development</li>
+                <li>Database Systems</li>
+              </ul>
+            </div>
+            <div class="activities">
+              <h3>Involvement</h3>
+              <ul>
+                <li>Spartan Cybersecurity Club</li>
+                <li>Tau Beta Pi - Web Master</li>
+                <li>SpartaHack x2</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cv-view">
+            <a href="cv.pdf" target="_blank" class="cv">Download CV</a>
+          </div>
         </section>
-        <section>
-          <h2>Experience</h2>
-          <p>This is the experience section.</p>
+        <div class="spacer layer3"></div>
+        <section id="experience" class="body-section">
+          <div class="timeline">
+            <div class="point">
+              <div>
+                <h3>i3 Verticals Inc.</h3>
+                <h4>Systems Engineer</h4>
+                <h5 class="job-date">June 2023 - Present</h5>
+                <p>Working with a team of engineers developing document management systems for government agencies and enterprise companies.</p>
+              </div>
+            </div>
+            <div class="point">
+              <div>
+                <h3>ImageSoft Inc.</h3>
+                <h4>Systems Engineer</h4>
+                <h5 class="job-date">Jun 2022 - Present</h5>
+                <p>Working with a team of engineers developing document management systems for government agencies and enterprise companies.</p>
+              </div>
+            </div>
+            <div class="point">
+              <div>
+                <h3>Michigan State University</h3>
+                <h4>Undergraduate Teaching Assistant</h4>
+                <h5 class="job-date">Aug 2022 - Present</h5>
+                <p>Giving C++ lectures in the programming labs and helping students with challenges using
+                  effective communication, critical thinking techniques and advanced C++ knowledge</p>
+              </div>
+            </div>
+            <div class="point">
+              <div>
+                <h3>Michigan State University</h3>
+                <h4>Undergraduate Research Assistant</h4>
+                <h5 class="job-date">June 2023 - Aug 2023</h5>
+                <p>Created a desktop image processing application to detect AI created images.</p>
+              </div>
+            </div>
+            <div class="point">
+              <div>
+                <h3>Running Name LLC</h3>
+                <h4>Web Designer</h4>
+                <h5 class="job-date">June 2022 - Aug 2022</h5>
+                <p>Developed and designed websites working in a small team.</p>
+              </div>
+            </div>
+            <div class="point">
+              <div>
+                <h3>Michigan State University</h3>
+                <h4>Computer Support Tech I</h4>
+                <h5 class="job-date">Jan 2022 - June 2022</h5>
+                <p>Assisted facility members as an IT support technician in College of Education.</p>
+              </div>
+            </div>
+          </div>
         </section>
-        <section>
-          <h2>Contact</h2>
-          <p>This is the Contact section.</p>
-        </section>
-      </section>
+      </div>
+      <div class="spacer layer4"></div>
+      <div class="footer">
+        <div id="social">
+          <a href="https://www.linkedin.com/in/baran-manti-8ba15422a/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/baranofifth/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.facebook.com/baran.manti" target="_blank"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div id="personal">
+          <a href="mailto:baranmanti@icloud.com">baranmanti@icloud.com</a>
+          <a href="tel:+15179448993">+1 (517) 944-8993</a>
+        </div>
+        <div id="Copyright">
+          <p>Copyright &copy; 2023. Designed by Baran Manti.</p>
+        </div>
+      </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
